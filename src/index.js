@@ -38,7 +38,6 @@ import taskOne from './template/taskOne.hbs';
 import taskSecond from './template/taskSecond.hbs';
 import taskThird from './template/taskThird.hbs';
 import taskFourth from './template/taskFourth.hbs';
-import taskHw from './template/taskHw.hbs';
 
 const rootEl = document.querySelector('#root');
 
@@ -57,6 +56,7 @@ rootEl.insertAdjacentHTML('beforeend', markupFourth);
 
 // -----------Homework-------------------------
 
+import taskHw from './template/taskHw.hbs';
 
 const form = document.querySelector('#form');
 const markupResult = taskHw(result);
